@@ -1,0 +1,680 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en"&gt;<br/>
+ &lt;head&gt;<br/>
+  &lt;meta charset="utf-8"&gt;<br/>
+  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;<br/>
+  &lt;meta name="viewport" content="width=device-width,initial-scale=1"&gt;<br/>
+  &lt;link rel="icon" href="/favicon.ico"&gt;<br/>
+  &lt;title&gt;frontend-web&lt;/title&gt;<br/>
+  &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"&gt;<br/>
+  &lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"&gt;<br/>
+  &lt;link href="/css/products.01623787.css" rel="prefetch"&gt;<br/>
+  &lt;link href="/css/transaction.d253099c.css" rel="prefetch"&gt;<br/>
+  &lt;link href="/js/about.3eaa20ba.js" rel="prefetch"&gt;<br/>
+  &lt;link href="/js/auth-login.9c79c164.js" rel="prefetch"&gt;<br/>
+  &lt;link href="/js/auth-register.ad871b8f.js" rel="prefetch"&gt;<br/>
+  &lt;link href="/js/auth.665e7e48.js" rel="prefetch"&gt;<br/>
+  &lt;link href="/js/order.685dff88.js" rel="prefetch"&gt;<br/>
+  &lt;link href="/js/products.8a9708d4.js" rel="prefetch"&gt;<br/>
+  &lt;link href="/js/transaction.ccd22be3.js" rel="prefetch"&gt;<br/>
+  &lt;link href="/css/chunk-vendors.4ee89b31.css" rel="preload" as="style"&gt;<br/>
+  &lt;link href="/js/app.38e579d2.js" rel="preload" as="script"&gt;<br/>
+  &lt;link href="/js/chunk-vendors.94c9f9e6.js" rel="preload" as="script"&gt;<br/>
+  &lt;link href="/css/chunk-vendors.4ee89b31.css" rel="stylesheet"&gt;<br/>
+  &lt;style type="text/css" id="vuetify-theme-stylesheet"&gt;.v-application a { color: #1976d2; }<br/>
+.v-application .primary {<br/>
+  background-color: #1976d2 !important;<br/>
+  border-color: #1976d2 !important;<br/>
+}<br/>
+.v-application .primary--text {<br/>
+  color: #1976d2 !important;<br/>
+  caret-color: #1976d2 !important;<br/>
+}<br/>
+.v-application .primary.lighten-5 {<br/>
+  background-color: #c7fdff !important;<br/>
+  border-color: #c7fdff !important;<br/>
+}<br/>
+.v-application .primary--text.text--lighten-5 {<br/>
+  color: #c7fdff !important;<br/>
+  caret-color: #c7fdff !important;<br/>
+}<br/>
+.v-application .primary.lighten-4 {<br/>
+  background-color: #a8e0ff !important;<br/>
+  border-color: #a8e0ff !important;<br/>
+}<br/>
+.v-application .primary--text.text--lighten-4 {<br/>
+  color: #a8e0ff !important;<br/>
+  caret-color: #a8e0ff !important;<br/>
+}<br/>
+.v-application .primary.lighten-3 {<br/>
+  background-color: #8ac5ff !important;<br/>
+  border-color: #8ac5ff !important;<br/>
+}<br/>
+.v-application .primary--text.text--lighten-3 {<br/>
+  color: #8ac5ff !important;<br/>
+  caret-color: #8ac5ff !important;<br/>
+}<br/>
+.v-application .primary.lighten-2 {<br/>
+  background-color: #6aaaff !important;<br/>
+  border-color: #6aaaff !important;<br/>
+}<br/>
+.v-application .primary--text.text--lighten-2 {<br/>
+  color: #6aaaff !important;<br/>
+  caret-color: #6aaaff !important;<br/>
+}<br/>
+.v-application .primary.lighten-1 {<br/>
+  background-color: #488fef !important;<br/>
+  border-color: #488fef !important;<br/>
+}<br/>
+.v-application .primary--text.text--lighten-1 {<br/>
+  color: #488fef !important;<br/>
+  caret-color: #488fef !important;<br/>
+}<br/>
+.v-application .primary.darken-1 {<br/>
+  background-color: #005eb6 !important;<br/>
+  border-color: #005eb6 !important;<br/>
+}<br/>
+.v-application .primary--text.text--darken-1 {<br/>
+  color: #005eb6 !important;<br/>
+  caret-color: #005eb6 !important;<br/>
+}<br/>
+.v-application .primary.darken-2 {<br/>
+  background-color: #00479b !important;<br/>
+  border-color: #00479b !important;<br/>
+}<br/>
+.v-application .primary--text.text--darken-2 {<br/>
+  color: #00479b !important;<br/>
+  caret-color: #00479b !important;<br/>
+}<br/>
+.v-application .primary.darken-3 {<br/>
+  background-color: #003180 !important;<br/>
+  border-color: #003180 !important;<br/>
+}<br/>
+.v-application .primary--text.text--darken-3 {<br/>
+  color: #003180 !important;<br/>
+  caret-color: #003180 !important;<br/>
+}<br/>
+.v-application .primary.darken-4 {<br/>
+  background-color: #001e67 !important;<br/>
+  border-color: #001e67 !important;<br/>
+}<br/>
+.v-application .primary--text.text--darken-4 {<br/>
+  color: #001e67 !important;<br/>
+  caret-color: #001e67 !important;<br/>
+}<br/>
+.v-application .secondary {<br/>
+  background-color: #424242 !important;<br/>
+  border-color: #424242 !important;<br/>
+}<br/>
+.v-application .secondary--text {<br/>
+  color: #424242 !important;<br/>
+  caret-color: #424242 !important;<br/>
+}<br/>
+.v-application .secondary.lighten-5 {<br/>
+  background-color: #c1c1c1 !important;<br/>
+  border-color: #c1c1c1 !important;<br/>
+}<br/>
+.v-application .secondary--text.text--lighten-5 {<br/>
+  color: #c1c1c1 !important;<br/>
+  caret-color: #c1c1c1 !important;<br/>
+}<br/>
+.v-application .secondary.lighten-4 {<br/>
+  background-color: #a6a6a6 !important;<br/>
+  border-color: #a6a6a6 !important;<br/>
+}<br/>
+.v-application .secondary--text.text--lighten-4 {<br/>
+  color: #a6a6a6 !important;<br/>
+  caret-color: #a6a6a6 !important;<br/>
+}<br/>
+.v-application .secondary.lighten-3 {<br/>
+  background-color: #8b8b8b !important;<br/>
+  border-color: #8b8b8b !important;<br/>
+}<br/>
+.v-application .secondary--text.text--lighten-3 {<br/>
+  color: #8b8b8b !important;<br/>
+  caret-color: #8b8b8b !important;<br/>
+}<br/>
+.v-application .secondary.lighten-2 {<br/>
+  background-color: #727272 !important;<br/>
+  border-color: #727272 !important;<br/>
+}<br/>
+.v-application .secondary--text.text--lighten-2 {<br/>
+  color: #727272 !important;<br/>
+  caret-color: #727272 !important;<br/>
+}<br/>
+.v-application .secondary.lighten-1 {<br/>
+  background-color: #595959 !important;<br/>
+  border-color: #595959 !important;<br/>
+}<br/>
+.v-application .secondary--text.text--lighten-1 {<br/>
+  color: #595959 !important;<br/>
+  caret-color: #595959 !important;<br/>
+}<br/>
+.v-application .secondary.darken-1 {<br/>
+  background-color: #2c2c2c !important;<br/>
+  border-color: #2c2c2c !important;<br/>
+}<br/>
+.v-application .secondary--text.text--darken-1 {<br/>
+  color: #2c2c2c !important;<br/>
+  caret-color: #2c2c2c !important;<br/>
+}<br/>
+.v-application .secondary.darken-2 {<br/>
+  background-color: #171717 !important;<br/>
+  border-color: #171717 !important;<br/>
+}<br/>
+.v-application .secondary--text.text--darken-2 {<br/>
+  color: #171717 !important;<br/>
+  caret-color: #171717 !important;<br/>
+}<br/>
+.v-application .secondary.darken-3 {<br/>
+  background-color: #000000 !important;<br/>
+  border-color: #000000 !important;<br/>
+}<br/>
+.v-application .secondary--text.text--darken-3 {<br/>
+  color: #000000 !important;<br/>
+  caret-color: #000000 !important;<br/>
+}<br/>
+.v-application .secondary.darken-4 {<br/>
+  background-color: #000000 !important;<br/>
+  border-color: #000000 !important;<br/>
+}<br/>
+.v-application .secondary--text.text--darken-4 {<br/>
+  color: #000000 !important;<br/>
+  caret-color: #000000 !important;<br/>
+}<br/>
+.v-application .accent {<br/>
+  background-color: #82b1ff !important;<br/>
+  border-color: #82b1ff !important;<br/>
+}<br/>
+.v-application .accent--text {<br/>
+  color: #82b1ff !important;<br/>
+  caret-color: #82b1ff !important;<br/>
+}<br/>
+.v-application .accent.lighten-5 {<br/>
+  background-color: #ffffff !important;<br/>
+  border-color: #ffffff !important;<br/>
+}<br/>
+.v-application .accent--text.text--lighten-5 {<br/>
+  color: #ffffff !important;<br/>
+  caret-color: #ffffff !important;<br/>
+}<br/>
+.v-application .accent.lighten-4 {<br/>
+  background-color: #f8ffff !important;<br/>
+  border-color: #f8ffff !important;<br/>
+}<br/>
+.v-application .accent--text.text--lighten-4 {<br/>
+  color: #f8ffff !important;<br/>
+  caret-color: #f8ffff !important;<br/>
+}<br/>
+.v-application .accent.lighten-3 {<br/>
+  background-color: #daffff !important;<br/>
+  border-color: #daffff !important;<br/>
+}<br/>
+.v-application .accent--text.text--lighten-3 {<br/>
+  color: #daffff !important;<br/>
+  caret-color: #daffff !important;<br/>
+}<br/>
+.v-application .accent.lighten-2 {<br/>
+  background-color: #bce8ff !important;<br/>
+  border-color: #bce8ff !important;<br/>
+}<br/>
+.v-application .accent--text.text--lighten-2 {<br/>
+  color: #bce8ff !important;<br/>
+  caret-color: #bce8ff !important;<br/>
+}<br/>
+.v-application .accent.lighten-1 {<br/>
+  background-color: #9fccff !important;<br/>
+  border-color: #9fccff !important;<br/>
+}<br/>
+.v-application .accent--text.text--lighten-1 {<br/>
+  color: #9fccff !important;<br/>
+  caret-color: #9fccff !important;<br/>
+}<br/>
+.v-application .accent.darken-1 {<br/>
+  background-color: #6596e2 !important;<br/>
+  border-color: #6596e2 !important;<br/>
+}<br/>
+.v-application .accent--text.text--darken-1 {<br/>
+  color: #6596e2 !important;<br/>
+  caret-color: #6596e2 !important;<br/>
+}<br/>
+.v-application .accent.darken-2 {<br/>
+  background-color: #467dc6 !important;<br/>
+  border-color: #467dc6 !important;<br/>
+}<br/>
+.v-application .accent--text.text--darken-2 {<br/>
+  color: #467dc6 !important;<br/>
+  caret-color: #467dc6 !important;<br/>
+}<br/>
+.v-application .accent.darken-3 {<br/>
+  background-color: #2364aa !important;<br/>
+  border-color: #2364aa !important;<br/>
+}<br/>
+.v-application .accent--text.text--darken-3 {<br/>
+  color: #2364aa !important;<br/>
+  caret-color: #2364aa !important;<br/>
+}<br/>
+.v-application .accent.darken-4 {<br/>
+  background-color: #004c90 !important;<br/>
+  border-color: #004c90 !important;<br/>
+}<br/>
+.v-application .accent--text.text--darken-4 {<br/>
+  color: #004c90 !important;<br/>
+  caret-color: #004c90 !important;<br/>
+}<br/>
+.v-application .error {<br/>
+  background-color: #ff5252 !important;<br/>
+  border-color: #ff5252 !important;<br/>
+}<br/>
+.v-application .error--text {<br/>
+  color: #ff5252 !important;<br/>
+  caret-color: #ff5252 !important;<br/>
+}<br/>
+.v-application .error.lighten-5 {<br/>
+  background-color: #ffe4d5 !important;<br/>
+  border-color: #ffe4d5 !important;<br/>
+}<br/>
+.v-application .error--text.text--lighten-5 {<br/>
+  color: #ffe4d5 !important;<br/>
+  caret-color: #ffe4d5 !important;<br/>
+}<br/>
+.v-application .error.lighten-4 {<br/>
+  background-color: #ffc6b9 !important;<br/>
+  border-color: #ffc6b9 !important;<br/>
+}<br/>
+.v-application .error--text.text--lighten-4 {<br/>
+  color: #ffc6b9 !important;<br/>
+  caret-color: #ffc6b9 !important;<br/>
+}<br/>
+.v-application .error.lighten-3 {<br/>
+  background-color: #ffa99e !important;<br/>
+  border-color: #ffa99e !important;<br/>
+}<br/>
+.v-application .error--text.text--lighten-3 {<br/>
+  color: #ffa99e !important;<br/>
+  caret-color: #ffa99e !important;<br/>
+}<br/>
+.v-application .error.lighten-2 {<br/>
+  background-color: #ff8c84 !important;<br/>
+  border-color: #ff8c84 !important;<br/>
+}<br/>
+.v-application .error--text.text--lighten-2 {<br/>
+  color: #ff8c84 !important;<br/>
+  caret-color: #ff8c84 !important;<br/>
+}<br/>
+.v-application .error.lighten-1 {<br/>
+  background-color: #ff6f6a !important;<br/>
+  border-color: #ff6f6a !important;<br/>
+}<br/>
+.v-application .error--text.text--lighten-1 {<br/>
+  color: #ff6f6a !important;<br/>
+  caret-color: #ff6f6a !important;<br/>
+}<br/>
+.v-application .error.darken-1 {<br/>
+  background-color: #df323b !important;<br/>
+  border-color: #df323b !important;<br/>
+}<br/>
+.v-application .error--text.text--darken-1 {<br/>
+  color: #df323b !important;<br/>
+  caret-color: #df323b !important;<br/>
+}<br/>
+.v-application .error.darken-2 {<br/>
+  background-color: #bf0025 !important;<br/>
+  border-color: #bf0025 !important;<br/>
+}<br/>
+.v-application .error--text.text--darken-2 {<br/>
+  color: #bf0025 !important;<br/>
+  caret-color: #bf0025 !important;<br/>
+}<br/>
+.v-application .error.darken-3 {<br/>
+  background-color: #9f0010 !important;<br/>
+  border-color: #9f0010 !important;<br/>
+}<br/>
+.v-application .error--text.text--darken-3 {<br/>
+  color: #9f0010 !important;<br/>
+  caret-color: #9f0010 !important;<br/>
+}<br/>
+.v-application .error.darken-4 {<br/>
+  background-color: #800000 !important;<br/>
+  border-color: #800000 !important;<br/>
+}<br/>
+.v-application .error--text.text--darken-4 {<br/>
+  color: #800000 !important;<br/>
+  caret-color: #800000 !important;<br/>
+}<br/>
+.v-application .info {<br/>
+  background-color: #2196f3 !important;<br/>
+  border-color: #2196f3 !important;<br/>
+}<br/>
+.v-application .info--text {<br/>
+  color: #2196f3 !important;<br/>
+  caret-color: #2196f3 !important;<br/>
+}<br/>
+.v-application .info.lighten-5 {<br/>
+  background-color: #d4ffff !important;<br/>
+  border-color: #d4ffff !important;<br/>
+}<br/>
+.v-application .info--text.text--lighten-5 {<br/>
+  color: #d4ffff !important;<br/>
+  caret-color: #d4ffff !important;<br/>
+}<br/>
+.v-application .info.lighten-4 {<br/>
+  background-color: #b5ffff !important;<br/>
+  border-color: #b5ffff !important;<br/>
+}<br/>
+.v-application .info--text.text--lighten-4 {<br/>
+  color: #b5ffff !important;<br/>
+  caret-color: #b5ffff !important;<br/>
+}<br/>
+.v-application .info.lighten-3 {<br/>
+  background-color: #95e8ff !important;<br/>
+  border-color: #95e8ff !important;<br/>
+}<br/>
+.v-application .info--text.text--lighten-3 {<br/>
+  color: #95e8ff !important;<br/>
+  caret-color: #95e8ff !important;<br/>
+}<br/>
+.v-application .info.lighten-2 {<br/>
+  background-color: #75ccff !important;<br/>
+  border-color: #75ccff !important;<br/>
+}<br/>
+.v-application .info--text.text--lighten-2 {<br/>
+  color: #75ccff !important;<br/>
+  caret-color: #75ccff !important;<br/>
+}<br/>
+.v-application .info.lighten-1 {<br/>
+  background-color: #51b0ff !important;<br/>
+  border-color: #51b0ff !important;<br/>
+}<br/>
+.v-application .info--text.text--lighten-1 {<br/>
+  color: #51b0ff !important;<br/>
+  caret-color: #51b0ff !important;<br/>
+}<br/>
+.v-application .info.darken-1 {<br/>
+  background-color: #007cd6 !important;<br/>
+  border-color: #007cd6 !important;<br/>
+}<br/>
+.v-application .info--text.text--darken-1 {<br/>
+  color: #007cd6 !important;<br/>
+  caret-color: #007cd6 !important;<br/>
+}<br/>
+.v-application .info.darken-2 {<br/>
+  background-color: #0064ba !important;<br/>
+  border-color: #0064ba !important;<br/>
+}<br/>
+.v-application .info--text.text--darken-2 {<br/>
+  color: #0064ba !important;<br/>
+  caret-color: #0064ba !important;<br/>
+}<br/>
+.v-application .info.darken-3 {<br/>
+  background-color: #004d9f !important;<br/>
+  border-color: #004d9f !important;<br/>
+}<br/>
+.v-application .info--text.text--darken-3 {<br/>
+  color: #004d9f !important;<br/>
+  caret-color: #004d9f !important;<br/>
+}<br/>
+.v-application .info.darken-4 {<br/>
+  background-color: #003784 !important;<br/>
+  border-color: #003784 !important;<br/>
+}<br/>
+.v-application .info--text.text--darken-4 {<br/>
+  color: #003784 !important;<br/>
+  caret-color: #003784 !important;<br/>
+}<br/>
+.v-application .success {<br/>
+  background-color: #4caf50 !important;<br/>
+  border-color: #4caf50 !important;<br/>
+}<br/>
+.v-application .success--text {<br/>
+  color: #4caf50 !important;<br/>
+  caret-color: #4caf50 !important;<br/>
+}<br/>
+.v-application .success.lighten-5 {<br/>
+  background-color: #dcffd6 !important;<br/>
+  border-color: #dcffd6 !important;<br/>
+}<br/>
+.v-application .success--text.text--lighten-5 {<br/>
+  color: #dcffd6 !important;<br/>
+  caret-color: #dcffd6 !important;<br/>
+}<br/>
+.v-application .success.lighten-4 {<br/>
+  background-color: #beffba !important;<br/>
+  border-color: #beffba !important;<br/>
+}<br/>
+.v-application .success--text.text--lighten-4 {<br/>
+  color: #beffba !important;<br/>
+  caret-color: #beffba !important;<br/>
+}<br/>
+.v-application .success.lighten-3 {<br/>
+  background-color: #a2ff9e !important;<br/>
+  border-color: #a2ff9e !important;<br/>
+}<br/>
+.v-application .success--text.text--lighten-3 {<br/>
+  color: #a2ff9e !important;<br/>
+  caret-color: #a2ff9e !important;<br/>
+}<br/>
+.v-application .success.lighten-2 {<br/>
+  background-color: #85e783 !important;<br/>
+  border-color: #85e783 !important;<br/>
+}<br/>
+.v-application .success--text.text--lighten-2 {<br/>
+  color: #85e783 !important;<br/>
+  caret-color: #85e783 !important;<br/>
+}<br/>
+.v-application .success.lighten-1 {<br/>
+  background-color: #69cb69 !important;<br/>
+  border-color: #69cb69 !important;<br/>
+}<br/>
+.v-application .success--text.text--lighten-1 {<br/>
+  color: #69cb69 !important;<br/>
+  caret-color: #69cb69 !important;<br/>
+}<br/>
+.v-application .success.darken-1 {<br/>
+  background-color: #2d9437 !important;<br/>
+  border-color: #2d9437 !important;<br/>
+}<br/>
+.v-application .success--text.text--darken-1 {<br/>
+  color: #2d9437 !important;<br/>
+  caret-color: #2d9437 !important;<br/>
+}<br/>
+.v-application .success.darken-2 {<br/>
+  background-color: #00791e !important;<br/>
+  border-color: #00791e !important;<br/>
+}<br/>
+.v-application .success--text.text--darken-2 {<br/>
+  color: #00791e !important;<br/>
+  caret-color: #00791e !important;<br/>
+}<br/>
+.v-application .success.darken-3 {<br/>
+  background-color: #006000 !important;<br/>
+  border-color: #006000 !important;<br/>
+}<br/>
+.v-application .success--text.text--darken-3 {<br/>
+  color: #006000 !important;<br/>
+  caret-color: #006000 !important;<br/>
+}<br/>
+.v-application .success.darken-4 {<br/>
+  background-color: #004700 !important;<br/>
+  border-color: #004700 !important;<br/>
+}<br/>
+.v-application .success--text.text--darken-4 {<br/>
+  color: #004700 !important;<br/>
+  caret-color: #004700 !important;<br/>
+}<br/>
+.v-application .warning {<br/>
+  background-color: #fb8c00 !important;<br/>
+  border-color: #fb8c00 !important;<br/>
+}<br/>
+.v-application .warning--text {<br/>
+  color: #fb8c00 !important;<br/>
+  caret-color: #fb8c00 !important;<br/>
+}<br/>
+.v-application .warning.lighten-5 {<br/>
+  background-color: #ffff9e !important;<br/>
+  border-color: #ffff9e !important;<br/>
+}<br/>
+.v-application .warning--text.text--lighten-5 {<br/>
+  color: #ffff9e !important;<br/>
+  caret-color: #ffff9e !important;<br/>
+}<br/>
+.v-application .warning.lighten-4 {<br/>
+  background-color: #fffb82 !important;<br/>
+  border-color: #fffb82 !important;<br/>
+}<br/>
+.v-application .warning--text.text--lighten-4 {<br/>
+  color: #fffb82 !important;<br/>
+  caret-color: #fffb82 !important;<br/>
+}<br/>
+.v-application .warning.lighten-3 {<br/>
+  background-color: #ffdf67 !important;<br/>
+  border-color: #ffdf67 !important;<br/>
+}<br/>
+.v-application .warning--text.text--lighten-3 {<br/>
+  color: #ffdf67 !important;<br/>
+  caret-color: #ffdf67 !important;<br/>
+}<br/>
+.v-application .warning.lighten-2 {<br/>
+  background-color: #ffc24b !important;<br/>
+  border-color: #ffc24b !important;<br/>
+}<br/>
+.v-application .warning--text.text--lighten-2 {<br/>
+  color: #ffc24b !important;<br/>
+  caret-color: #ffc24b !important;<br/>
+}<br/>
+.v-application .warning.lighten-1 {<br/>
+  background-color: #ffa72d !important;<br/>
+  border-color: #ffa72d !important;<br/>
+}<br/>
+.v-application .warning--text.text--lighten-1 {<br/>
+  color: #ffa72d !important;<br/>
+  caret-color: #ffa72d !important;<br/>
+}<br/>
+.v-application .warning.darken-1 {<br/>
+  background-color: #db7200 !important;<br/>
+  border-color: #db7200 !important;<br/>
+}<br/>
+.v-application .warning--text.text--darken-1 {<br/>
+  color: #db7200 !important;<br/>
+  caret-color: #db7200 !important;<br/>
+}<br/>
+.v-application .warning.darken-2 {<br/>
+  background-color: #bb5900 !important;<br/>
+  border-color: #bb5900 !important;<br/>
+}<br/>
+.v-application .warning--text.text--darken-2 {<br/>
+  color: #bb5900 !important;<br/>
+  caret-color: #bb5900 !important;<br/>
+}<br/>
+.v-application .warning.darken-3 {<br/>
+  background-color: #9d4000 !important;<br/>
+  border-color: #9d4000 !important;<br/>
+}<br/>
+.v-application .warning--text.text--darken-3 {<br/>
+  color: #9d4000 !important;<br/>
+  caret-color: #9d4000 !important;<br/>
+}<br/>
+.v-application .warning.darken-4 {<br/>
+  background-color: #802700 !important;<br/>
+  border-color: #802700 !important;<br/>
+}<br/>
+.v-application .warning--text.text--darken-4 {<br/>
+  color: #802700 !important;<br/>
+  caret-color: #802700 !important;<br/>
+}&lt;/style&gt;<br/>
+  &lt;script charset="utf-8" src="/js/auth.665e7e48.js"&gt;&lt;/script&gt;<br/>
+  &lt;script charset="utf-8" src="/js/auth-register.ad871b8f.js"&gt;&lt;/script&gt;<br/>
+ &lt;/head&gt;<br/>
+ &lt;body&gt;<br/>
+  &lt;noscript&gt;<br/>
+   &lt;strong&gt;We're sorry but frontend-web doesn't work properly without JavaScript enabled. Please enable it to continue.&lt;/strong&gt;<br/>
+  &lt;/noscript&gt;<br/>
+  &lt;div data-app="true" class="v-application v-application--is-ltr theme--light" id="app"&gt;<br/>
+   &lt;div class="v-application--wrap"&gt;<br/>
+    &lt;header class="v-sheet theme--dark v-toolbar v-app-bar v-app-bar--fixed deep-purple accent-4" data-booted="true" style="height: 64px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;"&gt;<br/>
+     &lt;div class="v-toolbar__content" style="height: 64px;"&gt;<br/>
+      &lt;div class="v-toolbar__title"&gt;<br/>
+       &lt;h3 style="cursor: pointer;"&gt;AltaShop&lt;/h3&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div class="spacer"&gt;&lt;/div&gt;&lt;button type="button" class="v-btn v-btn--icon v-btn--round theme--dark v-size--default"&gt;&lt;span class="v-btn__content"&gt;&lt;span class="v-badge v-badge--bottom v-badge--left v-badge--overlap theme--dark"&gt;&lt;i aria-hidden="true" class="v-icon notranslate fas fa-shopping-cart theme--dark"&gt;&lt;/i&gt;&lt;span class="v-badge__wrapper"&gt;&lt;span aria-atomic="true" aria-label="Badge" aria-live="polite" role="status" class="v-badge__badge primary" style="inset: calc(100% - 12px) calc(100% - 12px) auto auto; display: none;"&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button type="button" class="v-btn v-btn--icon v-btn--round theme--dark v-size--default"&gt;&lt;span class="v-btn__content"&gt;&lt;i aria-hidden="true" class="v-icon notranslate fas fa-sign-in theme--dark"&gt;&lt;/i&gt;&lt;/span&gt;&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/header&gt;<br/>
+    &lt;main class="v-main" data-booted="true" style="padding: 64px 0px 0px;"&gt;<br/>
+     &lt;div class="v-main__wrap"&gt;<br/>
+      &lt;div class="container"&gt;<br/>
+       &lt;div class="v-card v-sheet theme--light"&gt;<br/>
+        &lt;div class="v-card__title"&gt;<br/>
+         Register<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="v-card__text"&gt;<br/>
+         &lt;div role="alert" class="v-alert v-sheet theme--light elevation-2 v-alert--border v-alert--border-top"&gt;<br/>
+          &lt;div class="v-alert__wrapper"&gt;<br/>
+           &lt;i aria-hidden="true" class="v-icon notranslate v-alert__icon fas fa-exclamation-triangle theme--light error--text"&gt;&lt;/i&gt;<br/>
+           &lt;div class="v-alert__content"&gt; <br/>
+           &lt;/div&gt;<br/>
+           &lt;div class="v-alert__border v-alert__border--top error v-alert__border--has-color"&gt;&lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;form novalidate class="v-form"&gt;<br/>
+          &lt;div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--is-booted"&gt;<br/>
+           &lt;div class="v-input__control"&gt;<br/>
+            &lt;div class="v-input__slot"&gt;<br/>
+             &lt;div class="v-text-field__slot"&gt;<br/>
+              &lt;label for="input-18" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;"&gt;Nama Lengkap&lt;/label&gt;<br/>
+              &lt;input id="input-18" type="text"&gt;<br/>
+             &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+            &lt;div class="v-text-field__details"&gt;<br/>
+             &lt;div class="v-messages theme--light"&gt;<br/>
+              &lt;div class="v-messages__wrapper"&gt;&lt;/div&gt;<br/>
+             &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--is-booted"&gt;<br/>
+           &lt;div class="v-input__control"&gt;<br/>
+            &lt;div class="v-input__slot"&gt;<br/>
+             &lt;div class="v-text-field__slot"&gt;<br/>
+              &lt;label for="input-21" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;"&gt;Email&lt;/label&gt;<br/>
+              &lt;input id="input-21" type="text"&gt;<br/>
+             &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+            &lt;div class="v-text-field__details"&gt;<br/>
+             &lt;div class="v-messages theme--light"&gt;<br/>
+              &lt;div class="v-messages__wrapper"&gt;&lt;/div&gt;<br/>
+             &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--is-booted"&gt;<br/>
+           &lt;div class="v-input__control"&gt;<br/>
+            &lt;div class="v-input__slot"&gt;<br/>
+             &lt;div class="v-text-field__slot"&gt;<br/>
+              &lt;label for="input-24" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;"&gt;Password&lt;/label&gt;<br/>
+              &lt;input id="input-24" type="text"&gt;<br/>
+             &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+            &lt;div class="v-text-field__details"&gt;<br/>
+             &lt;div class="v-messages theme--light"&gt;<br/>
+              &lt;div class="v-messages__wrapper"&gt;&lt;/div&gt;<br/>
+             &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="text-center"&gt;<br/>
+           &lt;button type="button" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary"&gt;&lt;span class="v-btn__content"&gt;Register&lt;/span&gt;&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/form&gt;<br/>
+         &lt;div class="mt-3 text-center"&gt;<br/>
+           Sudah memiliki akun? &lt;a href="/auth/login" class=""&gt;Login&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/main&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+  &lt;script src="/js/chunk-vendors.94c9f9e6.js"&gt;&lt;/script&gt;<br/>
+  &lt;script src="/js/app.38e579d2.js"&gt;&lt;/script&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

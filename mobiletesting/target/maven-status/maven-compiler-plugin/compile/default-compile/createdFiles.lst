@@ -1,0 +1,3 @@
+com\example\app\drivers\AndroidDriverInit.class
+com\example\app\pages\TaskPage.class
+com\example\app\base\BasePageObject.class

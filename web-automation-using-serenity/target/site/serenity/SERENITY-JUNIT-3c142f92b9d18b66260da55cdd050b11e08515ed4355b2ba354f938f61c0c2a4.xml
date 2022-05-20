@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="register" skipped="0" tests="1" time="33.55" timestamp="2022-05-20 11:53:33"><testcase name="As a user I have to be able registration"><error message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">Keys to send should be a not null CharSequence</error><system-err>Keys to send should be a not null CharSequence&#13;
+starter.pages.RegisterPage.inputEmail(RegisterPage.java:66)&#13;
+starter.stepdefinitions.RegisterSteps.iInputWithAnd(RegisterSteps.java:30)&#13;
+✽.I input "agungp" with "new" and "September90*"(file:///D:/web-automation-using-serenity/src/test/resources/features/Register.feature:7)&#13;
+</system-err></testcase></testsuite>

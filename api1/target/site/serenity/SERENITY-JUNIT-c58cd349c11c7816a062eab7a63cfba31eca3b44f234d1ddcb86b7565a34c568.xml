@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Products" skipped="0" tests="3" time="23.0" timestamp="2022-05-20 02:12:12"><testcase name="GET - As a user I have to able to get detail products"/><testcase name="GET - As a user I can get detail product by ID"/><testcase name="POST - As a user I have to be able to create new products"/></testsuite>

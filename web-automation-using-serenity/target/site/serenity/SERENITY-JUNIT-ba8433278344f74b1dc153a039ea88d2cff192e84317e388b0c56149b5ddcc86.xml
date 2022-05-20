@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="logout" skipped="0" tests="1" time="60.14" timestamp="2022-05-20 10:04:11"><testcase name="As a user I have to be able logout"><failure message="Expected enabled element was not enabled&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown&#13;
+starter.pages.LogoutPage.clickLogoutButton(LogoutPage.java:31)&#13;
+starter.stepdefinitions.LogoutSteps.iClickButtonLogout(LogoutSteps.java:24)&#13;
+✽.I click button logout(file:///D:/web-automation-using-serenity/src/test/resources/features/Logout.feature:10)&#13;
+</system-err></testcase></testsuite>

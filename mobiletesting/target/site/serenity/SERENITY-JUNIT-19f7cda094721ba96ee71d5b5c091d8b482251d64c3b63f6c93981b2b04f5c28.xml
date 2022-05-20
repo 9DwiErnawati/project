@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="login" skipped="0" tests="4" time="281.06" timestamp="2022-05-19 08:20:39"><testcase name="As a user I have to be able login"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\New folder\mobiletesting..., appPackage: com.example.frontend_mobile, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\New folder\mobiletesting..., automationName: UIAutomator2, platformName: android, platformVersion: 8.1, unicodeKeyboard: true}, deviceApiLevel: 27, deviceManufacturer: OPPO, deviceModel: CPH1803, deviceName: d224b3cb, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: d224b3cb, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 53, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1371, left: 0, top: 53, width: 720}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 0a4af526-cc5f-4e12-89fb-172501c9e9fa&#10;*** Element info: {Using=xpath, value=&#9;&#10;//android.view.View[@content-desc=&quot;Products&quot;]}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\New folder\mobiletesting..., appPackage: com.example.frontend_mobile, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\New folder\mobiletesting..., automationName: UIAutomator2, platformName: android, platformVersion: 8.1, unicodeKeyboard: true}, deviceApiLevel: 27, deviceManufacturer: OPPO, deviceModel: CPH1803, deviceName: d224b3cb, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: d224b3cb, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 53, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1371, left: 0, top: 53, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a4af526-cc5f-4e12-89fb-172501c9e9fa
+*** Element info: {Using=xpath, value=	
+//android.view.View[@content-desc="Products"]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: AndroidDriver</error><system-err>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\New folder\mobiletesting..., appPackage: com.example.frontend_mobile, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\New folder\mobiletesting..., automationName: UIAutomator2, platformName: android, platformVersion: 8.1, unicodeKeyboard: true}, deviceApiLevel: 27, deviceManufacturer: OPPO, deviceModel: CPH1803, deviceName: d224b3cb, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: d224b3cb, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 53, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1371, left: 0, top: 53, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a4af526-cc5f-4e12-89fb-172501c9e9fa
+*** Element info: {Using=xpath, value=	
+//android.view.View[@content-desc="Products"]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: AndroidDriver&#13;
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)&#13;
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)&#13;
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)&#13;
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
+mobiletesting@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:26)&#13;
+mobiletesting@1.0-SNAPSHOT/com.example.app.pages.TaskPage.verifyTaskDisplayed(TaskPage.java:105)&#13;
+mobiletesting@1.0-SNAPSHOT/com.example.steps.loginSteps.iGoToHomepage(loginSteps.java:58)&#13;
+✽.I go to homepage "success"(file:///D:/New%20folder/mobiletesting/src/test/resources/features/login.feature:11)&#13;
+</system-err></testcase></testsuite>

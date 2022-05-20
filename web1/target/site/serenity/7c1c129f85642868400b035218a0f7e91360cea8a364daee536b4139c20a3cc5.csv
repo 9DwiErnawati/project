@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"login","As a user I have to be able login","SUCCESS","2022-05-16T00:33:43.9015557+07:00[Asia/Jakarta]","0.0","22.57"
-"login","Fail login","SUCCESS","2022-05-16T00:34:07.8047976+07:00[Asia/Jakarta]","0.0","12.77"

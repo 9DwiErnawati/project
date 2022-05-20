@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.example.acceptancetests.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 290.869 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
+login.As a user I have to be able login #1  Time elapsed: 71.881 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\New folder\mobiletesting..., appPackage: com.example.frontend_mobile, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\New folder\mobiletesting..., automationName: UIAutomator2, platformName: android, platformVersion: 8.1, unicodeKeyboard: true}, deviceApiLevel: 27, deviceManufacturer: OPPO, deviceModel: CPH1803, deviceName: d224b3cb, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: d224b3cb, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 53, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1371, left: 0, top: 53, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a4af526-cc5f-4e12-89fb-172501c9e9fa
+*** Element info: {Using=xpath, value=	
+//android.view.View[@content-desc="Products"]}
+
+login.As a user I have to be able login #4  Time elapsed: 54.262 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4RBSR0', ip: '192.168.43.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\New folder\mobiletesting..., appPackage: com.example.frontend_mobile, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\New folder\mobiletesting..., automationName: UIAutomator2, platformName: android, platformVersion: 8.1, unicodeKeyboard: true}, deviceApiLevel: 27, deviceManufacturer: OPPO, deviceModel: CPH1803, deviceName: d224b3cb, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: d224b3cb, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 53, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1371, left: 0, top: 53, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: c46305f5-2df5-4869-880f-dabf70831936
+*** Element info: {Using=xpath, value=	
+//android.view.View[@content-desc="Products"]}
+

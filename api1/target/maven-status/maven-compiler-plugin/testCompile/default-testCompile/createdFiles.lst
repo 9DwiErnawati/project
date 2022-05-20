@@ -1,0 +1,16 @@
+starter\Transactions\Get.class
+starter\ratings\Post.class
+starter\categories\Get.class
+starter\stepdefinitions\CategoriesSteps.class
+starter\categories\Post.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\ProductSteps.class
+starter\comments\Post.class
+starter\stepdefinitions\commentSteps.class
+starter\Transactions\Post.class
+starter\products\Get.class
+starter\products\Post.class
+starter\comments\Get.class
+starter\stepdefinitions\RatingSteps.class
+starter\stepdefinitions\TransactionSteps.class
+starter\ratings\Get.class
