@@ -29,5 +29,3 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run automation with maven
         run: mvn clean verify
-=======
->>>>>>> 3700f9c27a80e3fc6ce27dbd2691ca81e3bb193a
